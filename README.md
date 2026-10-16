@@ -1,5 +1,7 @@
 # Magpie · OpenChamber 扩展
 
+[English](README.en.md)
+
 在 OpenChamber 会话旁的 Work Status 面板里，用纯文字显示 [magpie](https://usemagpie.ai) 管理的订阅、编程套餐和 API Key 还剩多少用量，样式参照 OpenChamber 自带的"用量"区块。
 
 | 用量（中文） | 用量（英文） |

@@ -1,6 +1,6 @@
 {
   "name": "openchamber-magpie-usage",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "OpenChamber extension that shows magpie subscription, coding plan and API key usage.",
   "private": true,
   "type": "module",
