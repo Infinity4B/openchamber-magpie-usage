@@ -4,13 +4,9 @@
 
 在 OpenChamber 会话旁的 Work Status 面板里，用纯文字显示 [magpie](https://usemagpie.ai) 管理的订阅、编程套餐和 API Key 还剩多少用量，样式参照 OpenChamber 自带的"用量"区块。
 
-| 用量（中文） | 用量（英文） |
+| 用量 | 设置面板 |
 | --- | --- |
-| ![用量中文](pics/usage_zhcn.jpg) | ![用量英文](pics/usage_en.jpg) |
-
-| 设置面板（中文） | 设置面板（英文） |
-| --- | --- |
-| ![面板中文](pics/panel_zhcn.jpg) | ![面板英文](pics/panel_en.jpg) |
+| ![用量](pics/usage_zhcn.jpg) | ![设置面板](pics/panel_zhcn.jpg) |
 
 - 区块标题栏有"剩余 ▾"和"刷新"两项，顺序在面板里拖。
 - 每个账户一个小标题，下面每行是一个用量窗口：窗口名、重置倒计时、右对齐的数值。已用达到 50% 时数值显示为琥珀色，达到 80% 时显示为红色，与自带区块一致。

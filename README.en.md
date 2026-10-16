@@ -6,13 +6,9 @@ Shows how much of each [magpie](https://usemagpie.ai) subscription, coding plan 
 API key is left, as plain text in the Work Status panel next to the chat. The layout
 follows OpenChamber's own Usage section.
 
-| Usage (Chinese) | Usage (English) |
+| Usage | Settings panel |
 | --- | --- |
-| ![Usage, Chinese](pics/usage_zhcn.jpg) | ![Usage, English](pics/usage_en.jpg) |
-
-| Settings panel (Chinese) | Settings panel (English) |
-| --- | --- |
-| ![Panel, Chinese](pics/panel_zhcn.jpg) | ![Panel, English](pics/panel_en.jpg) |
+| ![Usage](pics/usage_en.jpg) | ![Settings panel](pics/panel_en.jpg) |
 
 - The section header carries a *Left / Used* select and a Refresh button; ordering is
   dragged in the panel.
