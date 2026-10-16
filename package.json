@@ -1,0 +1,44 @@
+{
+  "name": "openchamber-magpie-usage",
+  "version": "1.1.0",
+  "description": "OpenChamber extension that shows magpie subscription, coding plan and API key usage.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts",
+    "check": "npm run typecheck && node scripts/check-manifest.mjs && npm test"
+  },
+  "openchamber": {
+    "apiVersion": 1,
+    "engines": {
+      "openchamber": ">=2.3.0"
+    },
+    "contributes": {
+      "panel": {
+        "id": "magpie-usage",
+        "name": "Magpie",
+        "icon": "timer",
+        "entry": "panel/index.html"
+      },
+      "statusSection": {
+        "entry": "status/index.html",
+        "title": "Magpie",
+        "height": 120,
+        "defaultExpanded": true
+      },
+      "service": {
+        "entry": "service/main.js",
+        "runtime": "host"
+      }
+    }
+  },
+  "devDependencies": {
+    "@openchamber/sdk": "2.3.3",
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.9.0"
+  }
+}
