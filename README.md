@@ -1,4 +1,4 @@
-# Magpie · OpenChamber 扩展
+# Magpie usage · OpenChamber 扩展
 
 [English](README.en.md)
 
@@ -20,7 +20,7 @@
 
 ## 面板
 
-右侧栏的"Magpie"面板是设置面板（用量本身显示在会话旁的 Work Status 区块里）：
+右侧栏的"Magpie usage"面板是设置面板（用量本身显示在会话旁的 Work Status 区块里）：
 
 - **显示方式**：剩余 / 已用。
 - **网关端口**：与 magpie 设置 → Gateway 中的端口一致。
@@ -47,7 +47,7 @@ OpenChamber 把扩展区块的高度限制在 320px，内容超出时区块内�
 1. 打开 OpenChamber → **设置 → 扩展**。
 2. 粘贴本文件夹的绝对路径，点击添加。
 3. 授权对话框会提示这个扩展要运行"本地服务"，选择允许。OpenChamber 会提醒本地服务拥有完整的用户权限；这是所有本地服务都会出现的通用提示，本扩展的 service 只做上面列出的只读请求。
-4. 会话旁的 Work Status 面板中会出现"Magpie"区块，可在该面板的区块列表里隐藏或调整位置。
+4. 会话旁的 Work Status 面板中会出现"Magpie usage"区块，可在该面板的区块列表里隐藏或调整位置。
 
 如果你在 magpie 设置 → Gateway 中改过网关端口，区块会提示"连不上 magpie"，并在提示里给出端口输入框，填入正确的端口后保存即可。
 

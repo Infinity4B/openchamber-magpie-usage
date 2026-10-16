@@ -19,13 +19,13 @@
     "contributes": {
       "panel": {
         "id": "magpie-usage",
-        "name": "Magpie",
+        "name": "Magpie usage",
         "icon": "timer",
         "entry": "panel/index.html"
       },
       "statusSection": {
         "entry": "status/index.html",
-        "title": "Magpie",
+        "title": "Magpie usage",
         "height": 120,
         "defaultExpanded": true
       },

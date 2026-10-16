@@ -1,4 +1,4 @@
-# Magpie · OpenChamber extension
+# Magpie usage · OpenChamber extension
 
 [中文](README.md)
 
@@ -72,7 +72,7 @@ Needs OpenChamber 2.3.0 or newer (web or desktop) and a running magpie.
 3. The approval dialog asks to run a local service; allow it. OpenChamber warns that a
    local service has full user access — that warning appears for every local service.
    This extension's service only makes the read-only requests listed above.
-4. A **Magpie** section appears in the Work Status panel next to the chat; hide or move
+4. A **Magpie usage** section appears in the Work Status panel next to the chat; hide or move
    it in that panel's section list.
 
 If you changed the gateway port in magpie Settings → Gateway, the section says it cannot
